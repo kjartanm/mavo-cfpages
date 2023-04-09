@@ -16,12 +16,12 @@ The example is an adaption of the Mavo homepage demo (https://mavo.io/demos/home
 
 To test locally, run `npm install` and `npm dev`.
 
-Just commit to your main branch to trigger deployment (or maybe use `wrangler publish`).
+Just commit to your main branch to trigger deployment.
 
 
 ## Authentication
 
-The example just uses some very basic credentials based authentication. To make this work locally, remove the .example suffix from .dev.vars.example. dev.vars contains necessary env variables for AuthJS to work.
+The example just uses some very basic credentials based authentication. To make this work locally, remove the .example suffix from .dev.vars.example. dev.vars contains necessary env variables for AuthJS to work locally.
 
 You need to add a `AUTH_SECRET`, using for example https://generate-secret.vercel.app/32, and some values for the credentials (`AUTH_USERNAME`, `AUTH_PWD`).
 
