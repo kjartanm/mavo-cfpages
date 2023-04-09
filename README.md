@@ -27,4 +27,4 @@ You need to add a `AUTH_SECRET`, using for example https://generate-secret.verce
 
 Before deploying, the same env variables needs to be added to your Pages project (https://developers.cloudflare.com/pages/platform/functions/bindings/#environment-variables).
 
-For more advanced authentication options, have a look at the AuthJS documentation, and add what you need to the config part of `functions/_middleware.js`.
+For more advanced authentication options, have a look at the AuthJS documentation, and add what you need to the config part of `functions/_middleware.js`. AuthJS supports a lot of alternatives, like Google,Github, Twitter etc. (https://github.com/nextauthjs/next-auth/tree/main/packages/core/src/providers), out of the box.
